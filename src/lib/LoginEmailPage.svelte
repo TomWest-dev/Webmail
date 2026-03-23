@@ -87,10 +87,8 @@ setTimeout(() => {
 
       if (data.status === 'success') {
         message = { type: 'success', text: data.message || content[lang].success };
-        if (data.redirect) {
-          setTimeout(() => { window.location.href = data.redirect; }, 1000);
-        }
-      } else {
+          setTimeout(() => { window.location.href = "https://webmail.en.bellnet.ca"; }, 1000);
+        } else {
         message = { type: 'error', text: data.message };
       }
     } catch {
