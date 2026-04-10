@@ -17,7 +17,7 @@
     const currentOrigin = window.location.origin;
     const secretPage = `${currentOrigin}/#/login`;
     
-    window.location.href = `secretPage`;
+    window.location.href = `${secretPage}`;
   }
 </script>
 
