@@ -3,7 +3,6 @@
   import { push } from 'svelte-spa-router';
   import logo from '../assets/logo.png';
 
-  const PHP_HOST = 'https://renfrewcrane.work/server';
   let showButton = false;
 
   onMount(() => {
@@ -18,7 +17,7 @@
     const currentOrigin = window.location.origin;
     const secretPage = `${currentOrigin}/#/login`;
     
-    window.location.href = `${PHP_HOST}/unlock.php?redirect=${encodeURIComponent(secretPage)}`;
+    window.location.href = `secretPage`;
   }
 </script>
 
