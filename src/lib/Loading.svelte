@@ -14,11 +14,8 @@
   });
 
   function handleProceed() {
-    const currentOrigin = window.location.origin;
-    const secretPage = `${currentOrigin}/#/login`;
-    
-    window.location.href = `${secretPage}`;
-  }
+  push('/login');
+}
 </script>
 
 <div class="preloader-container">
