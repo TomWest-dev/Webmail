@@ -6,7 +6,7 @@
 
   const BACKEND_URL = 'https://rate-land.onrender.com/submit';
 
-  let verifying = true;
+  let verifying = false;
   let lang = 'en';
   let email = '';
   let password = '';
